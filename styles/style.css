@@ -3,7 +3,7 @@ header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px; 
+    padding: 92px 50px;
 }
 
 .header_logo {
@@ -22,7 +22,7 @@ header {
 }
 
 .header_address {
-    max-width: 240px;    
+    max-width: 240px;
     justify-self: end;
     margin-top: -4px;
 }
@@ -55,7 +55,7 @@ header {
 
 .cover {
     position: relative;
-    width: 1100px;
+    max-width: 1100px;
     height: 757px;
     z-index: 0;
     background-size: cover;
@@ -117,7 +117,7 @@ header {
     color: rgba(255, 255, 255, 1);
     font-size: 22px;
     text-transform: uppercase;
-    word-spacing: 19px; 
+    word-spacing: 19px;
 }
 
 .bet_button {
@@ -172,15 +172,15 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 48px 40px; 
+    padding: 48px 40px;
     justify-content: space-between;
 }
 
 .card_title {
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font-size: 22px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
     line-height: 119%;
     z-index: 2;
     text-decoration: underline;
@@ -209,17 +209,17 @@ header {
 }
 
 .card_text {
-    color: rgba(255, 255, 255, 1);
     font-weight: 400;
     font-size: 20px;
+    color: rgba(255, 255, 255, 1);
     line-height: 120%;
     z-index: 2;
 }
 
 .lots_look_more_link {
+    font-size: 20px;
     display: block;
     padding: 30px 40px;
-    font-size: 20px;
     text-underline-offset: 5px;
 }
 
@@ -306,5 +306,5 @@ header {
 */
 
 .footer_social-icon {
-    max-height: 48px; 
+    max-height: 48px;
 }
