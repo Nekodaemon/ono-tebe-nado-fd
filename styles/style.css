@@ -248,6 +248,7 @@ header {
     flex-direction: column;
     padding-top: 102px;
     padding-left: 25px;
+    max-width: 693px;
 }
 
 .about_title {
@@ -261,7 +262,6 @@ header {
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    width: 690px;
     gap: 25px;
 }
 
